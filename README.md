@@ -9,8 +9,7 @@
   <a href="./ROADMAP.md"><strong>🗺️ Practitioner Roadmap</strong></a> •
   <a href="./HARDWARE_GUIDE.md"><strong>🔩 Hardware Lab Guide ($250 to $100k)</strong></a> •
   <a href="./ARCHITECTURE.md"><strong>🏛️ Theoretical Architecture</strong></a> •
-  <a href="./examples"><strong>⚡ Runnable Starter Code</strong></a> •
-  <a href="./briefings"><strong>📑 Executive Briefing Decks</strong></a>
+  <a href="./examples"><strong>⚡ Runnable Starter Code</strong></a>
 </div>
 
 ---
@@ -200,17 +199,6 @@ Looking for a structured, step-by-step path to master Physical AI? Follow our co
 
 ---
 
-## 📑 Executive Briefings & Presentation Deck
-
-For enterprise practice leaders, C-suite executives, and industrial systems integrators:
-- **Master 25-Slide Executive Deck (PPTX):** [`The_Practice_of_Physical_AI_Executive_25_Master.pptx`](./briefings/The_Practice_of_Physical_AI_Executive_25_Master.pptx) — Fully styled 16:9 widescreen presentation engineered for high-stakes executive briefings.
-- **Reference PDF Deck:** [`The_Practice_of_Physical_AI_Executive_Deck_Master.pdf`](./briefings/The_Practice_of_Physical_AI_Executive_Deck_Master.pdf) — Complete 23-slide executive briefing.
-- **Enterprise Whitepaper:** [`Executive_Strategic_Briefing.md`](./briefings/Executive_Strategic_Briefing.md) — Strategic analysis on commercial reality, macro AI economics, and the multi-hundred-million-dollar systems integration opportunity.
-- **Master Deck Generator & Self-QA Validator:**
-  - [`generate_deck_master_25.py`](./briefings/generate_deck_master_25.py) — 25-slide generator with strict type scale ($\ge 18\text{pt}$ body text), layout constants, and matplotlib 300 DPI equation/diagram rendering.
-  - [`validate_deck.py`](./briefings/validate_deck.py) — Programmatic self-QA validator verifying text overflow, font/color explicitness (0 theme leaks), table bounds ($\le 5\times 4$), footer zones, and claim traceability across all 25 slides (**100% PASS**).
-
----
 
 ## 🤝 Contributing
 
